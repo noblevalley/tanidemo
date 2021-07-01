@@ -49,7 +49,7 @@ composer install
 以下のコマンドを実行し、出力されたbase64の値を .env ファイルを開いてAPP_KEYに張り付ける。
 
 ```
-composer install
+php artisan key:generate
 ```
 
 ### 4.DBへ接続し、以下のSQLを実行
