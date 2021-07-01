@@ -41,7 +41,7 @@ Web/DBサーバーとPHP/Composerはインストール済み/起動済みであ�
 composer install
 ```
 
-### 3.APP_KEYを取得する
+### 3.APP_KEYを取得
 
 .env.example ファイルをコピーしてファイル名を .env に変更する。
 
@@ -100,7 +100,7 @@ http://localhost/add
 
 
 
-### 2.拡張子が.jpgになっているファイルパスを入力して「送信」ボタンをクリックする。
+### 2.拡張子が.jpgになっているファイルパスを入力して「送信」ボタンをクリック
 
 .jpgファイルであれば、Successと出る。
 
@@ -110,5 +110,5 @@ http://localhost/add
 
 
 
-### 3.エラーになるならないにかかわらずDBのai_analysis_logテーブルに送信した分データ登録されていくのを確認する。
+### 3.DBのai_analysis_logテーブルに送信した分データ登録されていくのを確認
 
