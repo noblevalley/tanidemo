@@ -42,7 +42,17 @@ GitHubアカウントを持っていてクローン可能なこと
 composer install
 ```
 
-### 3.DBへ接続し、以下のSQLを実行
+### 3.APP_KEYを取得する
+
+.env.example ファイルをコピーしてファイル名を .env に変更する。
+
+以下のコマンドを実行し、出力されたbase64の値を .env ファイルを開いてAPP_KEYに張り付ける。
+
+```
+composer install
+```
+
+### 4.DBへ接続し、以下のSQLを実行
 
 ```
 CREATE DATABASE IF NOT EXISTS tanidemo DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
