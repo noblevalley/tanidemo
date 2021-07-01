@@ -30,7 +30,6 @@ DBサーバー：MariaDB 15.1
 
 Web/DBサーバーとPHP/Composerはインストール済み/起動済みであること
 
-GitHubアカウントを持っていてクローン可能なこと
 
 
 
